@@ -1,5 +1,0 @@
-/*!CK:204301688!*//*1435023825,*/
-
-if (self.CavalryLogger) { CavalryLogger.start_js(["cl8sg"]); }
-
-__d("ReactComposerScrapedAttachmentActions",["ReactComposerScrapedAttachmentActionType","ReactComposerDispatcher","ReactComposerScrapedAttachmentStore"],function(a,b,c,d,e,f,g,h){b.__markCompiled&&b.__markCompiled();b('ReactComposerScrapedAttachmentStore');function i(){"use strict";}i.prototype.enabled=function(j,k){"use strict";var l={composerID:j,type:g.ATTACHMENT_SCRAPE_ENABLED,enabled:k};h.dispatch(l);};i.prototype.setScrapedAttachment=function(j,k,l){"use strict";var m={composerID:j,type:g.ATTACHMENT_SCRAPED,markup:k,attachmentConfig:l};h.dispatch(m);};i.prototype.setPermissiveMatch=function(j,k){"use strict";var l={composerID:j,type:g.ATTACHMENT_PERMISSIVE_MATCH_SETTED,permissiveMatch:k};h.dispatch(l);};i.prototype.scrapeAttachment=function(j,k,l){"use strict";var m={composerID:j,type:g.ATTACHMENT_SCRAPE_INTENDED,targetID:k,value:l};h.dispatch(m);};e.exports=new i();},null);
