@@ -1,0 +1,5 @@
+/*!CK:3077420116!*//*1427089597,*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["4kHI+"]); }
+
+__d("getMentionsSearchSource",["AtSignMentionsStrategy","CapitalizedNameMentionsStrategy","DocumentCompositeMentionsSource","DocumentMentionsSource","FilteredSearchSource","SearchSourceWithMetrics","WebAsyncSearchSource","filterCapitalizedNames"],function(a,b,c,d,e,f,g,h,i,j,k,l,m,n){b.__markCompiled&&b.__markCompiled();function o(q){var r={bootstrapRequests:[],queryRequests:[]};if(q._bootstrapEndpoints)q._bootstrapEndpoints.forEach(function(s){r.bootstrapRequests.push({uri:s.endpoint,data:s.data});});if(q.bootstrapEndpoint)r.bootstrapRequests.push({uri:q.bootstrapEndpoint,data:q.bootstrapData});if(q.queryEndpoint)r.queryRequests.push({uri:q.queryEndpoint,data:q.queryData});r.auxiliaryFields={authorativePerson:'is_authoritative_person',connectedPage:'connected_page',disableAutosuggest:'disable_autosuggest',renderType:'render_type',verified:'is_verified',workUser:'is_work_user'};return new m(r);}function p(q,r){var s=o(q),t=new l(s,r),u=new k(n,t);return new i([new j(g,t),new j(h,u)]);}e.exports=p;},null);
